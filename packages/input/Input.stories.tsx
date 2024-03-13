@@ -130,7 +130,7 @@ export const WithIdenticon: StoryFn<InputProps> = (props) => {
 }
 
 WithIdenticon.args = {
-  placeholder: 'Ethereum address',
+  placeholder: 'Konet address',
 }
 
 export const WithButton: StoryFn<InputProps> = (props) => (
@@ -239,7 +239,7 @@ export const AccentColor: StoryFn<InputProps> = (props) => {
 AccentColor.args = {
   fullwidth: true,
   label: '',
-  placeholder: 'Ethereum address',
+  placeholder: 'Konet address',
 }
 
 const useModal = ({ onClose, onBack }: ModalProps) => {
